@@ -172,7 +172,14 @@ var characters = [
                 right: { transform: "rotate(180deg)" },
                 down: { transform: "rotate(270deg)" }
             }
-        }
+        },
+        {
+            name:"DyingPacPerson",
+            type:"PacPerson",
+            dirs: {
+                left: { transform: "rotate(0deg)"},
+            }
+        },
     ];
 
 React.render(

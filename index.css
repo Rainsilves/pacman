@@ -16,7 +16,7 @@ body {
     display: inline-flex;
 }
 .Character {
-    background: url(http://i.imgur.com/qrr0GDH.gif) no-repeat #8b8782;
+    background: url(http://i.imgur.com/laVntmz.gif) no-repeat #8b8782;
     background-size: 21em 18em;
     font-size: 2em;
     width: 1em;
@@ -32,6 +32,10 @@ body {
 
 .Dying {
     animation: steps(4) 1s;
+}
+
+.DyingPacPerson {
+    animation: steps(8) 1s;
 }
 
 .animate {
@@ -79,7 +83,12 @@ body {
     100% {background-position: -2em -5em;}
 }
 
-@keyframes Dying {
+@keyframes DyingGhost {
     0% {background-position: -0em -6em; }
     100% {background-position: -4em -6em;}
+}
+
+@keyframes DyingPacPerson{
+    0% {background-position: -0em -7em;}
+    100% {background-position: -8em -7em;}
 }
